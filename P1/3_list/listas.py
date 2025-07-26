@@ -1,4 +1,4 @@
-#Hernández Rentería Jorge Andrés 3°C Clásica.
+#Martínez Gallardo Juan Iván 3°C Clásica.
 import os
 """TAREA"""
 #ejemplo 1 crear una lista de numeros e imprimir el contenido

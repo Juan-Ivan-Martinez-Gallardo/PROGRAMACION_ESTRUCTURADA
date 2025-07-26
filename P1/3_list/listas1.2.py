@@ -1,5 +1,5 @@
 import os
-#Hernández Rentería Jorge Andrés 3°C Clásica.
+#Martínez Gallardo Juan Iván 3°C Clásica.
 #Ejemplo 1 Crear una lista de numeros e imprimir el contenido
 os.system("cls")
 

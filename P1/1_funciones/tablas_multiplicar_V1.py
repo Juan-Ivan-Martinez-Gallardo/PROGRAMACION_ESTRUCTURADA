@@ -2,7 +2,7 @@
   Crear un programa que calcule e imprima cualquier tabla de multiplicar
   Con funciones que regrese valor y utilice paremetros
 '''
-#Hernández Rentería Jorge Andrés 3°C Clásica.
+#Martínez Gallardo Juan Iván 3°C Clásica.
 #version 1
 # numero=int(input("Dame el numero de la tabla de multiplicar a calcular: "))
 # multi=numero*1

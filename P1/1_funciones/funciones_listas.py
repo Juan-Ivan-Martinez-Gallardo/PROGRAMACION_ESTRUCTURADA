@@ -4,7 +4,7 @@
  Nota: sus valores sí son modificables
  La lista es una colección ordenada y modificable. Permite miembros duplicados.
 """
-#Hernández Rentería Jorge Andrés 3°C Clásica.
+#Martínez Gallardo Juan Iván 3°C Clásica.
 import os 
 os.system("cls")
 #Funciones más comunes en las listas

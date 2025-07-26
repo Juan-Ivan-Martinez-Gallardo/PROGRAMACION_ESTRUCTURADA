@@ -20,7 +20,7 @@
    4.- Funcion que recibe parametros y regresa valor
 
 """
-#Hernández Rentería Jorge Andrés 3°C Clásica.
+#Martínez Gallardo Juan Iván 3°C Clásica.
 #1.- Funcion que no recibe parametros y no regresa valor
 
 def solicitarDatos1():

@@ -1,4 +1,4 @@
-#Hernández Rentería Jorge Andrés 3°C Clásica.
+#Martínez Gallardo Juan Iván 3°C Clásica.
 # 1er utilizar los modulos 
 import modulos
 

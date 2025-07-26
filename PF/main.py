@@ -1,27 +1,44 @@
-import six 
+#Proyecto final 
+#Crear un proyecto que permita gestionar (administrar) productos de cooppel, colocar un menú de opciones para agregar, mostrar, modificar, checar el precio, eliminar. 
+# Notas:
+# 1.- Utilizar funciones y mandar a llamar desde otro archivo.
+# 2.- Utilizar listas para almacenar el nombre y el precio.
+# 3.- Utilizar el concepto de manejo de excepciones.
+
+
+import cooppel
+
 def main():
     opcion = True
-    inventario_productos = []
+    productos = []
+
     while opcion:
-        opcion = six.menu_principal()
+        cooppel.borrarPantalla()
+        opcion = cooppel.menu_principal()
+        
         match opcion:
             case "1":
-                six.agregar_producto(inventario_productos)
-                six.esperar_tecla()
+                cooppel.agregar_producto(productos)
+                cooppel.esperarTecla()
             case "2":
-                six.mostrar_productos(inventario_productos)
-                six.esperar_tecla()
+                cooppel.mostrar_productos(productos)
+                cooppel.esperarTecla()
             case "3":
-                six.buscar_producto(inventario_productos)
-                six.esperar_tecla()
+                cooppel.modificar_producto(productos)
+                cooppel.esperarTecla()
             case "4":
-                six.actualizar_stock(inventario_productos)
-                six.esperar_tecla()
+                cooppel.checar_precio(productos)
+                cooppel.esperarTecla()
             case "5":
+                cooppel.eliminar_producto(productos)
+                cooppel.esperarTecla()
+            case "6":
                 opcion = False
-                six.borrar_pantalla()
-                print("\n\tSistema cerrado. ¡Hasta pronto!")
+                cooppel.borrarPantalla()
+                print("✅Terminaste la ejecución del SW✅")
             case _:
-                input("\n\t❌ Opción inválida, presione Enter para continuar...")
+                print("❌Opción inválida❌")
+                cooppel.esperarTecla()
+
 if __name__ == "__main__":
     main()

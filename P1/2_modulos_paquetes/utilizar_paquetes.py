@@ -1,4 +1,4 @@
-#Hernández Rentería Jorge Andrés 3°C Clásica.
+#Martínez Gallardo Juan Iván 3°C Clásica.
 from paquete1 import modulos
 
 print(modulos.saludar("Daniel Contreras Ruano"))
