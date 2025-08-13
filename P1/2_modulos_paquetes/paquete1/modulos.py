@@ -1,5 +1,5 @@
 # Un módulo es simplemente un archivo con extensión .py que contiene código de Python (funciones, clases, variables, etc.).
-#Hernández Rentería Jorge Andrés 3°C Clásica.
+#Martínez Gallardo Juan Iván 3°C Clásica.
 import os
 
 def solicitarDatos1():
